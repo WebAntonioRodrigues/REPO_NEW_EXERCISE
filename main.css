@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-    
 }
 
 :root {
@@ -19,8 +18,7 @@
 .container {
 	width: 100%;
 	max-width: 1200px;
-	margin: 0 ;
-	
+	margin: 0;
 }
 
 .wrapper {
@@ -33,7 +31,6 @@
 	background: teal;
 	flex: 0 0 20%;
 	height: 100%;
-   
 }
 
 .figure h1 {
@@ -51,22 +48,17 @@ a {
 
 ul {
 	padding-top: 3rem;
-  
 }
-
-
-
 
 li {
 	font-size: 18px;
 	padding: 1rem;
 	text-align: center;
 	list-style-type: none;
-    
 }
 
-a{
-    color: bisque;
+a {
+	color: bisque;
 }
 
 .content {
@@ -84,3 +76,5 @@ h1 {
 h2 {
 	color: var(--secondary-color);
 }
+
+
