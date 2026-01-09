@@ -19,8 +19,8 @@
 .container {
 	width: 100%;
 	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 2rem;
+	margin: 0 ;
+	
 }
 
 .wrapper {
@@ -31,7 +31,7 @@
 
 .figure {
 	background: teal;
-	flex: 0 0 30%;
+	flex: 0 0 20%;
 	height: 100%;
    
 }
