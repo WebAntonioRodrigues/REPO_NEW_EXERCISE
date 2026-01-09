@@ -1,16 +1,73 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 :root {
-    --primary-color: #b1271f;
-    --secondary-color: #4a551a;
+	--primary-color: #b1271f;
+	--secondary-color: #4a551a;
 }
 
 @media (max-width: 1366px) {
 	html {
 		font-size: 14px;
 	}
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+}
+
+.figure {
+	background: teal;
+	flex: 0 0 30%;
+	height: 100%;
+}
+
+.figure h1 {
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 2rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	padding-top: 3rem;
+}
+
+li {
+	font-size: 18px;
+	padding: 1rem;
+	text-align: center;
+	list-style-type: none;
+}
+.content {
+	display: flex;
+	flex: 0 0 60%;
+	flex-direction: column;
+	gap: 5rem;
+	padding-left: 5rem;
+}
+
+h1 {
+	color: var(--primary-color);
+}
+
+h2 {
+	color: var(--secondary-color);
 }
